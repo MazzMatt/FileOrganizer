@@ -21,12 +21,17 @@ Loading(choice)
 IsFile(path, main_path, choice)
 
 #usuwanie pustych folderów 
-RemoveDirs(main_path, choice)
+RemoveDirs(main_path,choice)
 
 time.sleep(1)
 print('\n\n✅ Sortowanie plików w folderze zakończone\n')
 
+time.sleep(1.5)
+
+os.startfile(path)
+
 Close()
+
         
         
         
