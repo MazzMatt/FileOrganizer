@@ -16,14 +16,12 @@ while choice > 2 or choice < 1:
 
 #-----------------------------------------------------------------
 
-#loading=True
 Loading(choice)
 
 IsFile(path, main_path, choice)
 
-
 #usuwanie pustych folderów 
-RemoveDirs(main_path,choice)
+RemoveDirs(main_path, choice)
 
 time.sleep(1)
 print('\n\n✅ Sortowanie plików w folderze zakończone\n')
